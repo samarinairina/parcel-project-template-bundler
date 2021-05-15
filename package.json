@@ -1,0 +1,30 @@
+{
+  "name": "parcel-project-template-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /parcel-project-template-bundler/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samarinairina/parcel-project-template-bundler.git"
+  },
+  "keywords": [],
+  "author": "Samarina Irina <samarinairina2017@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samarinairina/parcel-project-template-bundler/"
+  },
+  "homepage": "https://github.com/samarinairina/parcel-project-template-bundler",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
